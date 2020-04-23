@@ -1,3 +1,4 @@
+#assets/scss/main.scss
 ---
 ---
 
@@ -12,4 +13,5 @@ $theme-colors:(
 	'cian':		$cian,
 );
 
+@import "main";
 @import 'bootstrap/scss/bootstrap';
