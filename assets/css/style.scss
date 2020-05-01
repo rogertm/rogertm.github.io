@@ -18,7 +18,5 @@ $theme-colors:(
 	'cian':		$cian,
 );
 
-//
-// Import Bootstrap
-//
-@import '../scss/bootstrap/scss/bootstrap';
+@import '{{ site.remote_theme }}';
+

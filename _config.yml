@@ -29,10 +29,11 @@ sass:
   sass_dir: assets/css
 
 # Build settings
-remote_theme: rogertm/rogertm.github.io
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
+remote_theme: themingisprose/bootstrap-jekyll-theme
 
 lsi: false
 safe: true

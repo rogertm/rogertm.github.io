@@ -247,6 +247,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 204)
   jekyll-feed
+  jekyll-remote-theme
   jekyll-seo-tag
   tzinfo (~> 1.2)
   tzinfo-data
