@@ -29,7 +29,7 @@ sass:
   sass_dir: assets/css
 
 # Build settings
-theme: minima
+remote_theme: rogertm/rogertm.github.io
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

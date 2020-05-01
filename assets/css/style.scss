@@ -1,8 +1,6 @@
 ---
 ---
 
-@import '{{ site.theme }}';
-
 //
 // Fonts
 //
@@ -23,5 +21,4 @@ $theme-colors:(
 //
 // Import Bootstrap
 //
-@import '../../_sass/bootstrap/scss/bootstrap';
-
+@import '../scss/bootstrap/scss/bootstrap';
