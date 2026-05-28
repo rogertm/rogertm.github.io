@@ -1,7 +1,9 @@
 {
-  "name": "rogertm-cv",
+  "name": "rogertm.github.io",
   "private": true,
   "version": "1.0.0",
+  "description": "Repositorio para el sitio web personal de RogerTM alojado en GitHub Pages.",
+  "homepage": "https://rogertm.github.io",
   "scripts": {
     "serve": "bundle exec jekyll serve --livereload",
     "build": "bundle exec jekyll build",
