@@ -1,11 +1,10 @@
 {
-  "dependencies": {
-    "bootstrap": "^4.4.1",
-    "jquery": "^3.5.0"
-  },
-  "devDependencies": {
-    "del": "^5.1.0",
-    "gulp": "^4.0.2",
-    "gulp-copy": "^4.0.1"
+  "name": "rogertm-cv",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "bundle exec jekyll serve --livereload",
+    "build": "bundle exec jekyll build",
+    "clean": "bundle exec jekyll clean"
   }
 }

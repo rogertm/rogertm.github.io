@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Full Stack Web Developer
+title: RogerTM
 email: roger213tm@gmail.com
 description: Full Stack Web Developer
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -27,13 +27,13 @@ twitter_username: roger213tm
 github_username:  rogertm
 sass:
   sass_dir: assets/css
+markdown: kramdown
 
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-remote-theme
-remote_theme: themingisprose/bootstrap-jekyll-theme
 
 lsi: false
 safe: true
