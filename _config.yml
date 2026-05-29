@@ -28,6 +28,24 @@ github_username:  rogertm
 sass:
   sass_dir: assets/css
 markdown: kramdown
+skills:
+  - PHP
+  - HTML
+  - JavaScript
+  - CSS
+  - SCSS
+  - JSON
+  - Git
+  - WordPress
+  - WP-CLI
+  - Laravel
+  - Bootstrap
+  - NPM
+  - Composer
+  - Ubuntu
+  - Linux
+  - Bash
+  - API
 
 # Build settings
 plugins:
