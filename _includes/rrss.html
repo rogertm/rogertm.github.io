@@ -1,0 +1,13 @@
+{% assign socials = site.rrss | sort:"order" %}
+<div class="social-icons mt-4">
+    <ul class="mb-2 mb-sm-0 list-inline">
+        {% for rs in socials %}
+        <li class="list-inline-item">
+            <a href="{{ rs.link }}" target="_blank" class="nav-link text-muted">
+                {{ rs.content }}
+                <span class="visually-hidden">{{ rs.alt }}</span>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

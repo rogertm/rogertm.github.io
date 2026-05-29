@@ -1,2 +1,20 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap";
+
+main{
+  margin-top: 7rem;
+}
+
+.site-container{
+  max-width: 960px;
+}
+
+section{
+  @extend .border-bottom;
+  @extend .py-3;
+  @extend .mb-4;
+}
+article{
+  @extend .pb-3;
+  @extend .mb-4;
+}

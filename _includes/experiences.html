@@ -1,0 +1,15 @@
+{% assign experiences = site.experiences | sort:"date_range" | reverse %}
+{% for experience in experiences %}
+<article>
+    <h2 class="h1">{{ experience.title }}</h2>
+    <p>
+        <span>📅 <em>{{ experience.meta_date }}</em></span>
+        <span class="ms-3 me-2">|</span>
+        <span>📌 <em>{{ experience.meta_place }}</em></span>
+    </p>
+    {% if experience.meta_place %}
+    {% endif %}
+    {{ experience.content }}
+    <p class="text-muted">{{ experience.stack }}</p>
+</article>
+{% endfor %}

@@ -1,0 +1,9 @@
+{% assign projects = site.projects | sort:"order" %}
+{% for project in projects %}
+<article>
+    <h2 class="h1"><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></h2>
+    <h3>{{ project.subtitle }}</h3>
+    {{ project.content }}
+    <p class="text-muted">{{ project.stack }}</p>
+</article>
+{% endfor %}

@@ -1,0 +1,11 @@
+<footer class="mt-5">
+    <div class="site-container mx-auto py-4">
+        <div class="container-fluid text-center text-md-start">
+            <a class="navbar-brand text-muted" href="{{ '/' | relative_url }}">
+                <small>{{ site.title }} &copy; {{ site.time | date: '%Y' }}</small>
+            </a>
+
+            {% include rrss.html %}
+        </div>
+    </div>
+</footer>

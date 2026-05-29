@@ -46,6 +46,14 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
+collections:
+  projects:
+    output: false
+  experiences:
+    output: false
+  rrss:
+    output: false
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

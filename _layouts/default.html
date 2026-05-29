@@ -7,8 +7,11 @@
 </head>
 <body class="container-fuild">
 	{% include _navigation.html %}
-	<main class="container-sm mt-5">
-	{{ content }}
+	<main class="site-container mx-auto">
+		<div class="container-fluid">
+			{{ content }}
+		</div>
 	</main>
+	{% include _footer.html %}
 </body>
 </html>
