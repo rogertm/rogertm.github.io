@@ -5,8 +5,20 @@
   "description": "Repositorio para el sitio web personal de RogerTM alojado en GitHub Pages.",
   "homepage": "https://rogertm.github.io",
   "scripts": {
+    "jekyll:build": "bundle exec jekyll build",
+    "sass:build": "sass assets/src/scss/style.scss assets/dist/css/style.css --style=compressed --no-source-map",
+    "sass:watch": "sass assets/src/scss/style.scss assets/dist/css/style.css --watch --style=compressed --no-source-map",
+    "js:build": "esbuild assets/src/js/bootstrap.js --bundle --minify --outfile=assets/dist/js/bootstrap.js",
+    "js:watch": "esbuild assets/src/js/bootstrap.js --bundle --minify --outfile=assets/dist/js/bootstrap.js --watch",
     "serve": "bundle exec jekyll serve --livereload",
-    "build": "bundle exec jekyll build",
+    "watch": "npm-run-all --parallel serve sass:watch js:watch",
+    "build": "npm-run-all sass:build js:build jekyll:build",
     "clean": "bundle exec jekyll clean"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.3.8",
+    "esbuild": "^0.21.4",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.100.0"
   }
 }

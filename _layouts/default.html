@@ -1,12 +1,13 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" data-bs-theme="dark">
 <head>
 	{% include _head.html %}
 	{% include _style.html %}
+	{% include _js.html %}
 </head>
-<body>
+<body class="container-fuild">
 	{% include _navigation.html %}
-	<main>
+	<main class="container-sm mt-5">
 	{{ content }}
 	</main>
 </body>

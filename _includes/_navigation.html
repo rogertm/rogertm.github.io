@@ -1,7 +1,23 @@
-<header>
-	<nav>
-		<a href="{{ '/' | relative_url }}">Inicio</a>
-		<a href="{{ '/proyectos/' | relative_url }}">Proyectos</a>
-		<a href="{{ '/cv/' | relative_url }}">CV</a>
+<header class="bg-body-tertiary">
+	<nav class="navbar navbar-expand-sm container-sm">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="{{ '/' | relative_url }}">RogerTM</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-site-navigation" aria-controls="navbar-site-navigation" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar-site-navigation">
+				<ul class="navbar-nav ms-auto mb-2 mb-sm-0">
+					<li class="nav-item">
+						<a class="nav-link" href="{{ '/' | relative_url }}">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{ '/proyectos/' | relative_url }}">Proyectos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{ '/cv/' | relative_url }}">CV</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</nav>
 </header>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Inicio
+title: Full Stack Web Developer
 permalink: /
 ---
 
