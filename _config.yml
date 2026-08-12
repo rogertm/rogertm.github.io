@@ -30,22 +30,27 @@ sass:
 markdown: kramdown
 skills:
   - PHP
+  - POO
+  - MySQL
   - HTML
   - JavaScript
   - CSS
   - SCSS
+  - Responsive Design
   - JSON
   - Git
   - WordPress
   - WP-CLI
   - Laravel
   - Bootstrap
+  - Ruby
   - NPM
   - Composer
   - Ubuntu
   - Linux
   - Bash
-  - API
+  - REST API
+  - MVC
 
 # Build settings
 plugins:
