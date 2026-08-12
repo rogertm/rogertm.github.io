@@ -72,6 +72,8 @@ kramdown:
 collections:
   projects:
     output: false
+  portfolio:
+    output: false
   experiences:
     output: false
   rrss:
