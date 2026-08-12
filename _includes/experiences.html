@@ -13,6 +13,8 @@
     {% if experience.meta_place %}
     {% endif %}
     {{ experience.content }}
-    <p class="text-muted">{{ experience.stack }}</p>
+    {% for stack in experience.stack %}
+        <code class="me-2">{{ stack }}</code>
+    {% endfor %}
 </article>
 {% endfor %}
