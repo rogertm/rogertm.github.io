@@ -15,6 +15,10 @@
 
 // 2. Include any default variable overrides here
 
+// Fonts
+$headings-font-family:		'Ubuntu', serif;
+$font-family-sans-serif: 	'Ubuntu', sans-serif;
+
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../../../node_modules/bootstrap/scss/variables";
 
