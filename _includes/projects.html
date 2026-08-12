@@ -4,6 +4,8 @@
     <h2 class="h3"><a href="{{ project.link }}" target="_blank">{{ project.title }}</a></h2>
     <h3 class="mb-3 fs-5">{{ project.subtitle }}</h3>
     {{ project.content }}
-    <p class="text-muted">{{ project.stack }}</p>
+    {% for stack in project.stack %}
+        <code class="me-2">{{ stack }}</code>
+    {% endfor %}
 </article>
 {% endfor %}
